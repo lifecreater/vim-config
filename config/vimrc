@@ -28,6 +28,8 @@ let NERDTreeDirArrows = 1
 autocmd VimEnter * NERDTree
 " Go to previous (last accessed) window.
 autocmd VimEnter * wincmd p
+" Open Tagbar
+autocmd VimEnter * TagbarToggle
 
 " Close NerdTree automatically
 function! s:CloseIfOnlyControlWinLeft()
