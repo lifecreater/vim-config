@@ -20,6 +20,29 @@ let g:dein#enable_notification = 0
 let g:dein#install_log_filename = $VARPATH.'/dein.log'
 
 set relativenumber
+let NERDTreeQuitOnOpen = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+
+" Start NERDTree
+autocmd VimEnter * NERDTree
+" Go to previous (last accessed) window.
+autocmd VimEnter * wincmd p
+
+" Close NerdTree automatically
+function! s:CloseIfOnlyControlWinLeft()
+  if winnr("$") != 1
+    return
+  endif
+  if (exists("t:NERDTreeBufName") && bufwinnr(t:NERDTreeBufName) != -1)
+        \ || &buftype == 'quickfix'
+    q
+  endif
+endfunction
+augroup CloseIfOnlyControlWinLeft
+  au!
+  au BufEnter * call s:CloseIfOnlyControlWinLeft()
+augroup END
 
 function! s:dein_check_ruby() abort
 	call system("ruby -e 'require \"json\"; require \"yaml\"'")
