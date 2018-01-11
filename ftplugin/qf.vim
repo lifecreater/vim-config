@@ -22,8 +22,8 @@ setlocal nobuflisted
 wincmd J
 
 nnoremap <buffer> <CR> <CR><C-w>p
-nnoremap <buffer> sv   <C-w><CR>
-nnoremap <buffer> sg   <C-w><Enter><C-w>L
+nnoremap <buffer> sh   <C-w><CR>
+nnoremap <buffer> sv   <C-w><Enter><C-w>L
 nnoremap <buffer> st   <C-w><CR><C-w>T
 nnoremap <silent><buffer> p  :call <SID>preview_file()<CR>
 nnoremap <silent><buffer> q  :pclose!<CR>:quit<CR>
