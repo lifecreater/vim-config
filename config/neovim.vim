@@ -8,3 +8,5 @@ endif
 if isdirectory($VARPATH.'/venv/neovim3')
 	let g:python3_host_prog = $VARPATH.'/venv/neovim3/bin/python'
 endif
+
+let g:python3_host_prog = '/usr/local/bin/python3'
