@@ -159,6 +159,10 @@ nmap <silent> <Leader>tl :setlocal nolist!<CR>
 nmap <silent> <Leader>th :nohlsearch<CR>
 nmap <silent> <Leader>tw :setlocal wrap! breakindent!<CR>
 
+" Terminal
+nmap t<Enter> :bo sp term://zsh\|resize 10<CR>i
+tnoremap <Esc> <C-\><C-n>
+
 " Tabs
 :nnoremap <F5> :buffers<CR>:buffer<Space>
 nnoremap <silent> g0 :<C-u>tabfirst<CR>
