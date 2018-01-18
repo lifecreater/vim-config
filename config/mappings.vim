@@ -147,7 +147,6 @@ autocmd MyAutoCmd FileType man nnoremap <silent><buffer> q :<C-u>:quit<CR>
 
 " Use Ctrl-X to save and quit
 nnoremap <C-x> :x<CR>
-inoremap <C-x> <Esc>:<C-u>:x<CR>
 
 " Macros
 nnoremap Q q
