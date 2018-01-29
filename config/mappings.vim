@@ -365,4 +365,6 @@ function! OpenChangedFiles()
 	endfor
 endfunction
 
+:nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
+
 " vim: set ts=2 sw=2 tw=80 noet :
