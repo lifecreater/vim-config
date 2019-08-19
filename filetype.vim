@@ -19,7 +19,6 @@ augroup filetypedetect
 
 	autocmd BufNewFile,BufReadPost *.{feature,story} setfiletype cucumber
 	autocmd BufNewFile,BufRead Jenkinsfile           setfiletype groovy
-	autocmd BufNewFile,BufRead Tmuxfile,tmux/config  setfiletype tmux
 
 augroup END
 

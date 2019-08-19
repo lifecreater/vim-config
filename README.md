@@ -117,8 +117,7 @@ Run `make update`
 - Javascript completion via Tern
 - Python Jedi completion, PEP8 convention
 - Languages: PHP, Ansible, css3, csv, json, less, markdown, mustache
-- Helpers: Undo tree, bookmarks, git, tmux navigation,
-    hex editor, sessions, and much more.
+- Helpers: Undo tree, bookmarks, git, hex editor, sessions, and much more.
 
 _Note_ that 95% of the plugins are **[lazy-loaded]**.
 
@@ -132,7 +131,6 @@ Name           | Description
 [itchyny/vim-gitbranch] | Lightweight git branch detection
 [itchyny/vim-parenmatch] | Efficient alternative to the standard matchparen plugin
 [thinca/vim-localrc] | Enable configuration file of each directory
-[christoomey/tmux-navigator] | Seamless navigation between tmux panes and vim splits
 [junegunn/vim-peekaboo] | See the contents of registers
 [tpope/vim-sleuth] | Heuristically set buffer indent options
 [itchyny/cursorword] | Underlines word under cursor
@@ -173,7 +171,6 @@ Name           | Description
 [toyamarinyon/vim-swift] | Swift support
 [vim-jp/syntax-vim-ex] | Improved Vim syntax highlighting
 [chrisbra/csv.vim] | Handling column separated data
-[tmux-plugins/vim-tmux] | vim plugin for tmux.conf
 [cespare/vim-toml] | Syntax for TOML
 [PotatoesMaster/i3-vim-syntax] | i3 window manager config syntax
 [dag/vim-fish] | Fish shell edit support
@@ -247,7 +244,6 @@ Name           | Description
 [zchee/deoplete-go] | deoplete.nvim source for Go
 [zchee/deoplete-jedi] | deoplete.nvim source for Python
 [carlitux/deoplete-ternjs] | deoplete.nvim source for javascript
-[wellle/tmux-complete.vim] | Completion of words in adjacent tmux panes
 [ternjs/tern_for_vim] | Provides Tern-based JavaScript editing support
 
 ### Denite
@@ -287,7 +283,6 @@ Name           | Description
 [itchyny/vim-gitbranch]: https://github.com/itchyny/vim-gitbranch
 [itchyny/vim-parenmatch]: https://github.com/itchyny/vim-parenmatch
 [thinca/vim-localrc]: https://github.com/thinca/vim-localrc
-[christoomey/tmux-navigator]: https://github.com/christoomey/vim-tmux-navigator
 [tpope/vim-sleuth]: https://github.com/tpope/vim-sleuth
 [itchyny/cursorword]: https://github.com/itchyny/vim-cursorword
 
@@ -321,7 +316,6 @@ Name           | Description
 [toyamarinyon/vim-swift]: https://github.com/toyamarinyon/vim-swift
 [vim-jp/syntax-vim-ex]: https://github.com/vim-jp/syntax-vim-ex
 [chrisbra/csv.vim]: https://github.com/chrisbra/csv.vim
-[tmux-plugins/vim-tmux]: https://github.com/tmux-plugins/vim-tmux
 [cespare/vim-toml]: https://github.com/cespare/vim-toml
 [PotatoesMaster/i3-vim-syntax]: https://github.com/PotatoesMaster/i3-vim-syntax
 [dag/vim-fish]: https://github.com/dag/vim-fish
@@ -384,7 +378,6 @@ Name           | Description
 [zchee/deoplete-go]: https://github.com/zchee/deoplete-go
 [zchee/deoplete-jedi]: https://github.com/zchee/deoplete-jedi
 [carlitux/deoplete-ternjs]: https://github.com/carlitux/deoplete-ternjs
-[wellle/tmux-complete.vim]: https://github.com/wellle/tmux-complete.vim
 [ternjs/tern_for_vim]: https://github.com/ternjs/tern_for_vim
 
 [Shougo/denite.nvim]: https://github.com/Shougo/denite.nvim

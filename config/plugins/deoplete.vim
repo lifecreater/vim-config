@@ -93,7 +93,6 @@ call deoplete#custom#source('neosnippet',    'mark', '⌘')
 call deoplete#custom#source('tag',           'mark', '⌦')
 call deoplete#custom#source('around',        'mark', '↻')
 call deoplete#custom#source('buffer',        'mark', 'ℬ')
-call deoplete#custom#source('tmux-complete', 'mark', '⊶')
 call deoplete#custom#source('syntax',        'mark', '♯')
 call deoplete#custom#source('member',        'mark', '.')
 
@@ -112,7 +111,6 @@ call deoplete#custom#source('tag',           'rank', 400)
 call deoplete#custom#source('around',        'rank', 330)
 call deoplete#custom#source('buffer',        'rank', 320)
 call deoplete#custom#source('dictionary',    'rank', 310)
-call deoplete#custom#source('tmux-complete', 'rank', 300)
 call deoplete#custom#source('syntax',        'rank', 200)
 
 " }}}
