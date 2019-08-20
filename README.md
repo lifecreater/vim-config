@@ -116,7 +116,7 @@ Run `make update`
 - Go completion via vim-go and gocode
 - Javascript completion via Tern
 - Python Jedi completion, PEP8 convention
-- Languages: PHP, Ansible, css3, csv, json, less, markdown, mustache
+- Languages: PHP, Ansible, css3, csv, json, less, markdown 
 - Helpers: Undo tree, bookmarks, git, hex editor, sessions, and much more.
 
 _Note_ that 95% of the plugins are **[lazy-loaded]**.
@@ -142,7 +142,6 @@ Name           | Description
 Name           | Description
 -------------- | ----------------------
 [othree/html5.vim] | HTML5 omnicomplete and syntax
-[mustache/vim-mustache-handlebars] | Mustache and handlebars syntax
 [pearofducks/ansible-vim] | Improved YAML support for Ansible
 [mitsuhiko/vim-jinja] | Jinja support in vim
 [groenewege/vim-less] | Syntax for LESS
@@ -287,7 +286,6 @@ Name           | Description
 [itchyny/cursorword]: https://github.com/itchyny/vim-cursorword
 
 [othree/html5.vim]: https://github.com/othree/html5.vim
-[mustache/vim-mustache-handlebars]: https://github.com/mustache/vim-mustache-handlebars
 [pearofducks/ansible-vim]: https://github.com/pearofducks/ansible-vim
 [mitsuhiko/vim-jinja]: https://github.com/mitsuhiko/vim-jinja
 [groenewege/vim-less]: https://github.com/groenewege/vim-less
