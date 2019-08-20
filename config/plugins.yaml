@@ -29,8 +29,6 @@
 - { repo: groenewege/vim-less, on_ft: less }
 - { repo: othree/csscomplete.vim, on_ft: css }
 
-- { repo: mitsuhiko/vim-jinja, on_ft: [ htmljinja, jinja ]}
-
 - repo: pearofducks/ansible-vim
   on_ft: [ ansible, ansible_hosts, ansible_template ]
 
