@@ -116,7 +116,7 @@ Run `make update`
 - Go completion via vim-go and gocode
 - Javascript completion via Tern
 - Python Jedi completion, PEP8 convention
-- Languages: PHP, Ansible, css3, csv, json, markdown 
+- Languages: PHP, Ansible, csv, json, markdown 
 - Helpers: Undo tree, bookmarks, git, hex editor, sessions, and much more.
 
 _Note_ that 95% of the plugins are **[lazy-loaded]**.
@@ -143,7 +143,6 @@ Name           | Description
 -------------- | ----------------------
 [othree/html5.vim] | HTML5 omnicomplete and syntax
 [pearofducks/ansible-vim] | Improved YAML support for Ansible
-[hail2u/vim-css3-syntax] | CSS3 syntax support to vim's built-in `syntax/css.vim`
 [othree/csscomplete.vim] | Updated built-in CSS complete with latest standards
 [cakebaker/scss-syntax.vim] | Syntax file for scss (Sassy CSS)
 [ap/vim-css-color] | Preview colors in source-code while editing
@@ -285,7 +284,6 @@ Name           | Description
 
 [othree/html5.vim]: https://github.com/othree/html5.vim
 [pearofducks/ansible-vim]: https://github.com/pearofducks/ansible-vim
-[hail2u/vim-css3-syntax]: https://github.com/hail2u/vim-css3-syntax
 [othree/csscomplete.vim]: https://github.com/othree/csscomplete.vim
 [cakebaker/scss-syntax.vim]: https://github.com/cakebaker/scss-syntax.vim
 [ap/vim-css-color]: https://github.com/ap/vim-css-color
