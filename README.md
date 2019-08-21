@@ -171,7 +171,6 @@ Name           | Description
 [dag/vim-fish] | Fish shell edit support
 [ekalinin/Dockerfile.vim] | syntax and snippets for Dockerfile
 [jstrater/mpvim] | Macports portfile configuration files
-[tpope/vim-git] | Git runtime files
 [robbles/logstash.vim] | Highlights logstash configuration files
 [andreshazard/vim-logreview] | Bueatify log viewing
 [exu/pgsql.vim] | PostgreSQL syntax
@@ -311,7 +310,6 @@ Name           | Description
 [dag/vim-fish]: https://github.com/dag/vim-fish
 [ekalinin/Dockerfile.vim]: https://github.com/ekalinin/Dockerfile.vim
 [jstrater/mpvim]: https://github.com/jstrater/mpvim
-[tpope/vim-git]: https://github.com/tpope/vim-git
 [robbles/logstash.vim]: https://github.com/robbles/logstash.vim
 [andreshazard/vim-logreview]: https://github.com/andreshazard/vim-logreview
 [exu/pgsql.vim]: https://github.com/exu/pgsql.vim

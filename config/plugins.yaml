@@ -106,7 +106,6 @@
 - { repo: vim-jp/syntax-vim-ex, on_ft: vim }
 
 - { repo: chrisbra/csv.vim, on_ft: csv }
-- { repo: tpope/vim-git, on_ft: [ gitcommit, gitrebase, gitconfig ]}
 - { repo: ekalinin/Dockerfile.vim, on_ft: [ Dockerfile, docker-compose ]}
 - { repo: andreshazard/vim-logreview, on_ft: logreview }
 
